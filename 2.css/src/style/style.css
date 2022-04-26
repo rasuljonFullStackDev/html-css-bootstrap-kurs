@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.quti{
+    width: 200px;
+    height: 200px;
+    background: red;
+    /* display: none; */
+    /* display: inline; */
+    display: inline-block;
+}
+.max{
+    /* max-width: 600px; */
+    min-width: 300px;
+    max-height: 800px;
+    height: 300px;
+    background: crimson;
+}
+.text{
+    color: crimson;
+    background: cyan;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 50px;
+    letter-spacing: 20px;
+    word-spacing: 50px;
+    opacity: 0.5;
+}
+.dumaloq{
+    width: 100px;
+    height: 100px;
+    background: darkmagenta;
+    /* border-color: darkorange;
+    border-width: 3px;
+    border-style: solid; */
+    border: 5px solid green;
+    /* border-bottom: 10px dotted yellow;
+    border-top: 6px double red;
+    border-left: 1px solid magenta; */
+    /* border-radius: 10px; */
+    /* border-radius: 50%; */
+    /* border-radius: 30px 70px 100px 150px; */
+    border-radius: 6px 173px 0 150px;
+    margin: 50px;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    background: url("../img/card.png") center center/cover no-repeat;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.445);
+    backdrop-filter: blur(50px);
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: wheat;
+    animation: tepa 1s;
+}
+p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    transform: translateY(-200px);
+    opacity: 0;
+    animation: tepa 1s ease-in-out 1s forwards;
+}
+@keyframes tepa {
+    0%{
+        transform: translateX(-200px) scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0) scale(1);
+        opacity: 1;
+    }
+}

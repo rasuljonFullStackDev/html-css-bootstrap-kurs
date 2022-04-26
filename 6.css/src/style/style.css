@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quti{
+    width: 200px;
+    height: 200px;
+    background: crimson;
+    /* transition: width 2s, height 1s; */
+    transition: all 1s;
+    margin: 20px;
+    
+}
+.quti:hover{
+    width: 400px;
+    height: 400px;
+}
+.quti2{
+    width: 200px;
+    height: 200px;
+    background: crimson;
+    transition: all 1s;
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: linear;
+    transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    transition-timing-function: cubic-bezier(0.32, 1.15, 0, 0.35);
+    transition-delay: 1s;
+    transition: all 1s ease-in-out 2s;
+}
+.quti2:hover{
+    width: 600px;
+    background: green;
+}
+
+.quti3{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background: crimson;
+    animation-name: animatsiya-haqida;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    /* animation-iteration-count: 30; */
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-direction:alternate-reverse;
+    /* animation-timing-function: ease-in; */
+    animation-timing-function:cubic-bezier(0.35, 0.79, 0.64, -0.18);
+    /* animation-fill-mode: forwards;
+    animation-fill-mode: backwards;
+    animation-fill-mode: both; */
+    animation:animatsiya-haqida 3s ease-in infinite 2s ;
+}
+.quti3:hover{
+    animation-play-state: paused;
+}
+@keyframes animatsiya-haqida {
+    0%{
+        transform: scale(0.3);
+        background: green;
+    }
+    25%{
+        transform: translate(100px);
+        background: cyan;
+    }
+    75%{
+        transform: rotate(75deg);
+        background: blue;
+    }
+    100%{
+        transform: scale(1);
+    }
+}

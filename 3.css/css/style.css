@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.quti{
+    width: 300px;
+    height: 300px;
+    /* background: red; */
+    background: url("../img/Image\ \(6\).png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    
+}
+.quti2{
+    width: 400px;
+    height: 400px;
+    background:linear-gradient(to top,red,blue,yellow,green);
+    background:linear-gradient(to left,red,blue,yellow,green);
+    background:linear-gradient(90deg,red,blue,yellow,green);
+    margin: 50px;
+    box-shadow: 50px 100px 20px rgb(51, 66, 75);
+    box-shadow: inset 5px 10px 15px cyan;
+}
+
+
+
+
+.btn{
+    padding:5px 24px ;
+    margin: 30px;
+    background: crimson;
+    border: 1px solid crimson;
+    color: wheat;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn:active{
+    background: cyan;
+}
+.btn:focus{
+    color: gray;
+}
+.input{
+    margin: 30px;
+    border: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
+}
+.input:focus{
+    outline-color: green;
+    outline: none;
+    box-shadow: 5px 10px 15px rgba(255, 144, 17, 0.5);
+}
+.ota_quti p:nth-child(5){
+    background: greenyellow;
+}
+.ota_quti h1:nth-child(4){
+    background: red;
+}
+.btn:hover{
+    background: white;
+    color: crimson;
+  
+}
+.btn_gred{
+    padding:5px 24px ;
+    margin: 30px;
+    background: linear-gradient(45deg,cyan,crimson);
+    /* border: 1px solid crimson; */
+    border: none;
+    color: wheat;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn_gred:hover{
+    background: linear-gradient(-45deg,cyan,crimson);
+
+}

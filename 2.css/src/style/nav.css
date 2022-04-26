@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+  padding: 20px;
+}
+.nav-logo{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.nav-item{
+    display: inline-block;
+    margin-left: 800px;
+}
+.nav-link{
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+}
+.nav-link a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: black;
+
+}
+.nav_btn{
+    background: crimson;
+    padding: 5px 25px;
+    color: white;
+    border: 1px solid crimson;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* header */
+.header{
+    
+    height: 600px;
+    background: url("../img/bg.png") center center/cover no-repeat;
+}
+.header h1{
+    text-align: center;
+    color: white;
+}
